@@ -1,5 +1,6 @@
 - name: insatll and run nginx
   hosts: mongodb
+  become: yes # this will give root access
   tasks:
   - name: install nginx
     ansible.builtin.yum:
