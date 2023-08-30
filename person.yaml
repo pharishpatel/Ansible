@@ -1,0 +1,32 @@
+-name: harish
+ dob: 01-01-1993
+ # this is map
+ address
+   city: hyd
+   country: India
+   dno: 102
+   street: no 10
+  # this is permanent address
+  addresses: 
+  -type: perm
+   city: hyd
+   country: India
+  -type: current
+   city: hyd
+   country: India
+- name: kenny
+  dob: 01-01-2023
+  # this is map
+  address:
+  city: hyd
+  country: India
+  dno: 102
+  street: no 10
+  # this is permanent address
+  addresses: 
+  - type: perm
+    city: hyd
+     country: India
+  - type: current
+    city: hyd
+    country: India

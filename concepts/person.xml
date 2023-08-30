@@ -1,0 +1,14 @@
+<person>
+     <Name>harish</name>
+     <DOB>28-12-1993</DOB>
+     <Address>
+         <permaddresss>
+              <Country>India</Country>
+              <City>Armoor</City>
+         </permaddresss>
+         <curreentaddresss>
+              <Country>India</Country>
+              <City>hyd</City>
+         </currentaddresss>
+      </Address>     
+</person>
