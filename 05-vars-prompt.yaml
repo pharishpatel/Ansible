@@ -4,11 +4,11 @@
   - name: USERNAME
     prompt: please enter your username
     private: false
-  - name: PAASWORD
+  - name: PASSWORD
     prompt: please enter your password
     private: true # you cant see the pwd
   tasks:
   - name: print variable values
     ansible.builtin.debug:
-      msg: "username: {{USERNAME}}. paasword: {{PASSWORD}}" 
+      msg: "username: {{USERNAME}}. password: {{PASSWORD}}" 
  
