@@ -1,8 +1,8 @@
 - name: variables from files
   hosts: mongodb
-  var_files:
+  vars_files:
   - variables.yaml
   tasks: 
   - name: printing variables
     ansible.builtin.debug:
-      msg: "Hello, iam learning {{NAME}}, Trainer is {{TRAINER}}, Duration is {{DURATION}}"
+     msg: "Hello, iam learning {{NAME}}, Trainer is {{TRAINER}}, Duration is {{DURATION}}"
