@@ -3,6 +3,7 @@
   vars_propmt:
   - name: USERNAME
     prompt: please enter your username
+    private: false
   - name: PAASWORD
     prompt: please enter your password
     private: true # you cant see the pwd
