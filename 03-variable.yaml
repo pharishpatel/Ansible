@@ -4,3 +4,7 @@
   - name: print hello world
     ansible.builtin.debug:
       msg: "Hello, Iam learning Ansible"
+  tasks:
+  - name: print my name is kenny
+    ansible.builtin.debug:
+      msg: "Hello,  iam kenny am new to the worl"
