@@ -7,5 +7,5 @@
     ignore_errors: true
 
   - name: print the command harish
-    ansible.buitlin.debug:
+    ansible.builtin.debug:
       msg: "harish is {{harish}}"
