@@ -2,7 +2,7 @@
   hosts: mongodb
   vars:
     NAME: harish-play
-  vars_fies:
+  vars_files:
   - variable.yaml
   vars_prompt:
   - name: NAME
