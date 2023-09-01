@@ -28,3 +28,4 @@
   - name: print  map variable
     ansible.builtin.debug:
       msg: "{{EXPERIENCE}}"
+      # this is  ansible data type
