@@ -8,4 +8,4 @@
 
   - name: print the command harish
     ansible.buitlin.debug:
-      msg "harish is {{harish}}"
+      msg: "harish is {{harish}}"
