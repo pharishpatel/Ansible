@@ -1,6 +1,6 @@
-- name : testing variable precedence
-  hosts : mongodb
-  vars :
+- name: testing variable precedence
+  hosts: mongodb
+  vars:
     NAME: harish-play
   vars_fies:
   - variable.yaml
@@ -8,9 +8,9 @@
   - name: NAME
     prompt: please enter Trainer name
     private: false
-  tasks :
+  tasks:
   - name: variable at task level
     vars: 
      NAME: harish-task
     ansible.builtin.debug:
-      msg : "Trainer name is {{NAME}}"
+      msg: "Trainer name is {{NAME}}"
