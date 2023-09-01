@@ -1,10 +1,10 @@
-- name: ansible conditions
+- name: create user
   hosts: mongodb
   tasks: 
   - name: check roboshop user exist or not
     ansible.buitlin.command: id roboshop
     register: harish
-    ignoring_errors: true
+    ignore_errors: true
 
   - name: print the command harish
     ansible.buitlin.debug:
