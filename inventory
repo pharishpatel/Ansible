@@ -4,3 +4,4 @@ roboshop-us-dev-db-mongodb-01.kennydev.online
 [mongodb:vars]
 MONGO_USERNAME=mongodbadmin
 MONGO_DB=catageries
+NAME=harish

@@ -2,7 +2,7 @@
   hosts: mongodb
   # this is play level variables
   vars: 
-    COURSE: DevOps
+    NAME : harish-var
     TRAINER: harish
     DURATION: 110HRS
   tasks:
