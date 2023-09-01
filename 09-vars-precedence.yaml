@@ -6,10 +6,10 @@
   - variable.yaml
   vars_prompt:
   - name: NAME
-    prompt: please enter trainer name
+    prompt: please enter Trainer name
     private: false
   tasks :
-  - name: print at task level
+  - name: variable at task level
     vars: 
      NAME: harish-task
     ansible.builtin.debug:
