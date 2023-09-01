@@ -2,7 +2,7 @@
   hosts: mongodb
   tasks: 
   - name: check roboshop user exist or not
-    ansible.buitlin.command: id roboshop
+    ansible.builtin.command: id roboshop
     register: harish
     ignore_errors: true
 
