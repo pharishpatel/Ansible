@@ -2,8 +2,8 @@
   hosts: mongodb
   vars:
     NAME: harish-play
-  vars_files:
-  - variable.yaml
+  # vars_files:
+  # - variable.yaml
   vars_prompt:
   - name: NAME
     prompt: please enter Trainer name
